@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Números</title>
+</head>
+<body>
+    <h1>Somando Números em Java Script</h1>
+    <!--
+    <input type="number" name="n1" id="n1">
+    <input type="number" name="n1" id="n1">
+    <input type="button" value="somar" onclick="somar()">
+    -->
+    <div id = "res">
+        Resultado
+    </div>
+    <script>
+        function somar(){
+            var tn1 = document.getElementById("n1")
+            var tn2 = document.querySelector("input#n2")
+            var res = document.getElementById('res')
+            var vn1 = Number(tn1.value)
+            var vn2 = Number(tn2.value)
+            var s = vn1 + vn2
+            res.innerHTML = s
+        }
+    </script>
+
+
+</body>
+</html>

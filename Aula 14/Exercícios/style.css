@@ -1,0 +1,54 @@
+body{
+    background:linear-gradient(to right, rgba(0, 174, 255, 0.651), rgba(255, 255, 255, 0));
+}
+header > h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+div#contador{
+    margin: auto;
+    background-color: white;
+    width: 300px;
+    height: 230px;
+    border-radius: 20px;
+    padding: 15px;
+    padding-bottom: 150px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
+}   
+div#contador > p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#res{
+    padding-top: 50px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+#cx1{
+    margin: 15px;
+    border-radius: 6px;
+}
+#cx2{
+    margin-left: 26.5px;
+    border-radius: 6px;
+    
+}
+#cx3{
+    margin: 10px;
+    border-radius: 6px;
+}
+#button{
+    margin-left: 120px;
+    padding: 0px 10px 0px ;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+}
+footer{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

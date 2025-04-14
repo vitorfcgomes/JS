@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Java Script</title>
+    
+    <style>
+        body{
+            background-color: gray;
+            text-align: center;
+            font: bold 15px Verdana;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p>Primeiro Código em Java Script pelo <strong>Curso do GG</strong></p>
+
+    <script>
+       var n1 = Number.parseInt(window.prompt("Digite um número")) //Number.parseInt é a conversão de string para number
+       var n2 = Number.parseInt(window.prompt("Digite outro número"))
+       var soma = (n1 + n2)
+       window.alert(`a soma entre ${n1} e ${n2} é igual a ${soma}`) // Templates Strings (Place Holders), utilizados para simplificar o código 
+
+       var n3 = Number(window.prompt("Digite um número"))
+       var n4 = Number(window.prompt("Digite outro número"))
+       var sub = (n3 - n4)
+       window.alert("A subtração dos valores citados é " + sub)
+
+       //(number + number) para adição
+       //(string + string) para concatenação
+
+       
+       
+    </script>  
+</body>
+</html> 
